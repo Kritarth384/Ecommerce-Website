@@ -14,3 +14,8 @@
 -> with props or can say using values from directory i update the value in menu-item section 
 -> last update the large size image there that i insert in className and update with sass
 -> Thank You.
+
+-> I update someofthings regarding background-image in menu items regarding its width and height
+-> also add the google font.
+-> then add the transition feature while hover through the menu-item...
+
