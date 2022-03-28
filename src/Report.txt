@@ -1,0 +1,16 @@
+-> First i create a react app...
+-> Just make a app using div in just App section
+-> make everything in one place
+-> Thank You.
+
+-> then make everything component wise
+-> first make a Pages and components folders
+-> then insert Homepage in pages folder 
+-> then insert directory folder, menu-item folder in components section
+-> directory folder is used for state change like menu-items are like section that will be added if there are more data
+-> directory component is used as useSTate in class Manner
+-> where everything done in render section ... for that i also make constructor components
+-> in render section i just take all values in as state in menuitem div section and update it...
+-> with props or can say using values from directory i update the value in menu-item section 
+-> last update the large size image there that i insert in className and update with sass
+-> Thank You.
