@@ -18,4 +18,10 @@
 -> I update someofthings regarding background-image in menu items regarding its width and height
 -> also add the google font.
 -> then add the transition feature while hover through the menu-item...
+-> thank you
 
+-> Doing some routing part 
+-> First add BrowerRouter to Index.js file
+-> then add routing in App.js with Route under Routes..
+-> then add Link command in menu-item.component.jsx to refer to other address when click on button..
+-> thank you.
