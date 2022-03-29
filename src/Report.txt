@@ -25,3 +25,12 @@
 -> then add routing in App.js with Route under Routes..
 -> then add Link command in menu-item.component.jsx to refer to other address when click on button..
 -> thank you.
+
+-> Then i create a Shop page
+-> For that first i create Shop folder in Pages folder
+-> and also create two folder Collection-preview and Collection-item in Component section 
+-> and same two file jsx and data
+-> In shop i fetch the data and send it two collection Preview folder in Component
+-> Then in Collection preview i just create Title and items section 
+-> and items section there which is image and title and price , make new folder Collection-item for it.
+-> Then finally add css files there and do styling.
