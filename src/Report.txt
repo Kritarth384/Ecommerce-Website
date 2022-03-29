@@ -34,3 +34,9 @@
 -> Then in Collection preview i just create Title and items section 
 -> and items section there which is image and title and price , make new folder Collection-item for it.
 -> Then finally add css files there and do styling.
+
+
+-> Last we add a header component 
+-> and make a header folder in component section
+-> for logo we make a assets folder in src section and add svg file there
+-> then add some div and link component in header jsx file and do some styling in header scss.
