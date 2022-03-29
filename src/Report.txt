@@ -40,3 +40,11 @@
 -> and make a header folder in component section
 -> for logo we make a assets folder in src section and add svg file there
 -> then add some div and link component in header jsx file and do some styling in header scss.
+
+-> Now we create a Sign IN page in pagegs section 
+-> there jsx and scss file 
+-> then create a signin component in component section
+-> in signin section create a component of email, password we capture 
+-> then make two component form-Input and custome button component where we use email and password in Form Input and button in custom button section 
+-> There we use shrink thing if user type something it will shrink otherwise not, ,check it...
+-> thank you.
