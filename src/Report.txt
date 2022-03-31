@@ -48,3 +48,10 @@
 -> then make two component form-Input and custome button component where we use email and password in Form Input and button in custom button section 
 -> There we use shrink thing if user type something it will shrink otherwise not, ,check it...
 -> thank you.
+
+-> make a Firebase folder to use Google Auth 
+-> then write the Firebase command in utils.jsx 
+-> then use that in App.js to find we are login or logout using ComponentDidMount to check login and ComponentWillUnmount to check logout 
+-> Then add signIn and signOut in header component as we sigin and signout to display
+-> Then do someStyling in my in Buttons in Google Button and box-sizing: border-box;
+
