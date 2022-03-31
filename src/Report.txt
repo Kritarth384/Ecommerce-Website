@@ -55,3 +55,7 @@
 -> Then add signIn and signOut in header component as we sigin and signout to display
 -> Then do someStyling in my in Buttons in Google Button and box-sizing: border-box;
 
+-> Create the user and store in our Database using firestore
+-> just update the App.js and firebase.uitls.js file
+-> where we create a async function createUser and then using await set in database 
+
