@@ -35,6 +35,11 @@
 -> and items section there which is image and title and price , make new folder Collection-item for it.
 -> Then finally add css files there and do styling.
 
+-> Then i made add createUserprofiledocument and set the state currentUser with userAuth
+-> Then i create a signup page like signIn page and add in sign-inand signup page 
+-> REmeber to on authentication of email password in firebase.
+
+
 
 -> Last we add a header component 
 -> and make a header folder in component section
