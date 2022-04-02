@@ -66,3 +66,9 @@
 -> last we added signin check if we able to login or not 
 -> That's all firebase...may work later but that's all here ..
 
+-> Now we add Redux / Reducer in our code
+-> Now we just for user section
+-> as we giving user info from App.js to header component
+-> Now we are updting using user info from reducer not directly from App.js using connect in module in header component and App.js file 
+-> using reducer we setCurrentuser.
+-> For that we also add root-reducer and store js file that given diagram... too.
