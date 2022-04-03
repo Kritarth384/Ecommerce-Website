@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate, Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import "./App.css";
@@ -63,16 +63,21 @@ class App extends React.Component {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/shop" element={<ShopPage />} />
-          <Route path="/signin" element={<SignINAndSignUpPage />} />
+          <Route exact path="/signin" element={this.props.currentUser ? (<Navigate replace to='/' />) : (<SignINAndSignUpPage/>)} />
         </Routes>
       </div>
     );
   }
 }
 
+
+const mapStateToProps = ({user}) => ({
+  currentUser: user.currentUser
+})
+
 // dispatch whatever u passing me will pass to every reducer
 const mapDispatchToProps = dispatch => ({
     	setCurrentUser: user => dispatch(setCurrentUser(user))
 })
 
-export default connect(null, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

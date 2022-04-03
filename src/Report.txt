@@ -72,3 +72,9 @@
 -> Now we are updting using user info from reducer not directly from App.js using connect in module in header component and App.js file 
 -> using reducer we setCurrentuser.
 -> For that we also add root-reducer and store js file that given diagram... too.
+
+
+-> Now we have add cart and cartdropdown toggle component,
+-> And using Reducer we are adding the action like when hidden is true then it will not show drop down meny with icon other show,,
+-> for that we create cart redux -- cart reducer, cart action, cart type and do same thing and use mapDispatchToProps() to action this command when we click the icon and update it... 
+-> nice..
