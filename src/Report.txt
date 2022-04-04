@@ -78,3 +78,7 @@
 -> And using Reducer we are adding the action like when hidden is true then it will not show drop down meny with icon other show,,
 -> for that we create cart redux -- cart reducer, cart action, cart type and do same thing and use mapDispatchToProps() to action this command when we click the icon and update it... 
 -> nice..
+
+-> Then we add more functionality in cart redux where when we click on cart-item button it will fetch the data of that item, and also take the quantity how many times we are doing that....
+-> for Quantity we make cart.utils.js file.
+
