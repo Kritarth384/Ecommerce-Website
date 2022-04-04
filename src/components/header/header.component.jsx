@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 // connect is higher order componenet to access things related to REdux.
 
+
+import { createStructuredSelector } from 'reselect'
+import { selectCartHidden } from '../../redux/cart/cart.selector'
+import { selectCurrentUser } from '../../redux/user/user.selectors'
+
+
 import './header.styles.scss'
 import {ReactComponent as Logo}  from '../../assets/crown.svg'
 
@@ -42,9 +48,10 @@ const Header = ({currentUser, hidden}) => (
 
 
 // state is root-reducer
-const mapStateToProps = ({user: {currentUser}, cart: { hidden }}) => ({
-    currentUser,
-    hidden
+// createStrucredSelector fetch all the top level state as we get mapStatestoProps
+const mapStateToProps = createStructuredSelector({
+    currentUser: selectCurrentUser,
+    hidden: selectCartHidden
 })
 
 export default connect(mapStateToProps)(Header);

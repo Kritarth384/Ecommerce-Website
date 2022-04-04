@@ -10,6 +10,11 @@ import SignINAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up
 
 import { auth, createUserProfileDocument } from "./components/firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.action";
+import { selectCurrentUser } from "./redux/user/user.selectors";
+
+import { createStructuredSelector } from "reselect";
+
+import CheckoutPage from "./pages/checkout/checkout.components";
 
 const HatsPage = () => {
   return (
@@ -63,6 +68,7 @@ class App extends React.Component {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/shop" element={<ShopPage />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
           <Route exact path="/signin" element={this.props.currentUser ? (<Navigate replace to='/' />) : (<SignINAndSignUpPage/>)} />
         </Routes>
       </div>
@@ -71,8 +77,8 @@ class App extends React.Component {
 }
 
 
-const mapStateToProps = ({user}) => ({
-  currentUser: user.currentUser
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser
 })
 
 // dispatch whatever u passing me will pass to every reducer

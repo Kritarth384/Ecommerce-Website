@@ -82,3 +82,10 @@
 -> Then we add more functionality in cart redux where when we click on cart-item button it will fetch the data of that item, and also take the quantity how many times we are doing that....
 -> for Quantity we make cart.utils.js file.
 
+-> We implemented redux and use it in showing all the items in drop-down menu 
+-> With that we also use selectors in redux cart and user 
+-> With that we able to take values with selector easily..
+
+
+-> Then we make checkout Page and add the functionaliy of adding all the info there with clicking on go to Checkout page, 
+-> add the functionality of update the price also in checkout page - total price.
