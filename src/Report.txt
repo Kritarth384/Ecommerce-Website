@@ -105,3 +105,7 @@
 -> for every product hats, jackets.....
 -> and integrate everything with adding selector in shop selector .js 
 
+
+-> Now we added the Payment thing using Stripe for that we make a component stripe and do some changes in checkout page 
+-> that's simple 
+-> now deploying to heroku..:)
