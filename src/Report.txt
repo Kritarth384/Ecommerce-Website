@@ -100,4 +100,8 @@
 
 -> Now we have done same redux thing with Shop reducer making and direcory reducer making 
 -> and also make collection-Overview component to display the item for furthur display all the image of category lets see..
+-> updated Everything to react-router-dom version 5.0.0
+-> Then add the shop extension page collection component 
+-> for every product hats, jackets.....
+-> and integrate everything with adding selector in shop selector .js 
 

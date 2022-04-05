@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { selectCartItems } from "../../redux/cart/cart.selector";
 import { createStructuredSelector } from "reselect";
-import { useNavigate, useLocation } from "react-router-dom";
+import { withRouter} from "react-router-dom";
 
 import CustomButton from "../custom-button/custom-button.component";
 import CartItem from "../cart-item/cart-item.component";
@@ -15,7 +15,6 @@ import './cart-dropdown.styles.scss'
 
 const Cart = ({cartItems, history, dispatch}) => {
 
-    const navigate = useNavigate();
 
     return(
     <div className="cart-dropdown">
@@ -28,7 +27,7 @@ const Cart = ({cartItems, history, dispatch}) => {
             }
             
         </div>
-        <CustomButton onClick={() => {navigate('/checkout');
+        <CustomButton onClick={() => {history.push('./checkout');
         dispatch(toggleCartHidden())}}>GO TO CHECKOUT</CustomButton>
     </div>
     )
@@ -40,4 +39,4 @@ const mapStateToProps = createStructuredSelector({
 
 
 // we can directly use dispatch in in above cart function without writing mapDispatchToProps.
-export default connect(mapStateToProps)(Cart);
+export default withRouter(connect(mapStateToProps)(Cart));
