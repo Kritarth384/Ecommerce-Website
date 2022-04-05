@@ -97,3 +97,7 @@
 
 -> We update store.js and root-reducer.js and index.js for persistent in content of cart...
 -> in whitelist just wrote to make it persistent only 
+
+-> Now we have done same redux thing with Shop reducer making and direcory reducer making 
+-> and also make collection-Overview component to display the item for furthur display all the image of category lets see..
+
