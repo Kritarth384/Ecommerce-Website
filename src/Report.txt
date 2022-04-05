@@ -89,3 +89,11 @@
 
 -> Then we make checkout Page and add the functionaliy of adding all the info there with clicking on go to Checkout page, 
 -> add the functionality of update the price also in checkout page - total price.
+
+-> As we refresh the page the all the content in checkout page will gone and we lose it..
+-> to make it persistent we use reduxPersist library...something like this...
+-> We use "LocalStorage" thing that store the info even we refresh the page, browser or window,
+-> But "sessionStorage" is different.
+
+-> We update store.js and root-reducer.js and index.js for persistent in content of cart...
+-> in whitelist just wrote to make it persistent only 
