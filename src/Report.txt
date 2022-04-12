@@ -109,3 +109,8 @@
 -> Now we added the Payment thing using Stripe for that we make a component stripe and do some changes in checkout page 
 -> that's simple 
 -> now deploying to heroku..:)
+
+-> Then we have update css styles in js for two or more component, can do for more if want..
+-> Then added shop data in our firebase with changing in shop redux thing and firebase.utils to updateCollection and add Data 
+-> Then also add Spinner to load items to display..
+
