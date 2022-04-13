@@ -114,3 +114,35 @@
 -> Then added shop data in our firebase with changing in shop redux thing and firebase.utils to updateCollection and add Data 
 -> Then also add Spinner to load items to display..
 
+
+-> Observable 
+-> three methods : 
+-> 1. next(nextValue) => { // do something with value}
+-> 2. error() => { // do something with error}
+-> 3. error() => { // do something when completed}
+-> promise pattern
+-> fetch the data using rest api call...
+-> but not implemented only on comment.
+
+
+-> Redux Thunk
+-> piece of middleware that allows us to fire function
+-> We added Thunk to middleware
+-> middle ware is little tunnel here 
+-> redux thunk only care about function, not object
+-> hence only fetchCollectionsStartAsync will go
+-> it will give dispatch functionality in function
+-> it will give dispatch functionality in function
+-> We removed updateCollection thing and make three shop types FEtchcollectionstart, success, failure and make action for that in shop.action.js 
+-> Then make function dispatch fetchCollectionsStartAsync in shop.action.js that work for fetchcollectionsstart, success failure in our shop page.
+
+
+
+-> There is problem here when we refresh we got error 
+-> Then we make loading selector to check if its loaded or not ....
+-> and put that in spinnercollection part in loading.
+
+-> Container pattern 
+-> We going to replace CollectionOverviewWithSpinner and CollctionPageWithSpinner 
+-> For that we make container for collection-overview and collection page, and use that in shop page 
+-> container does not render anything it just act as props to the component.
